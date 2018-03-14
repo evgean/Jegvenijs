@@ -21,9 +21,7 @@ public class Main {
     }
 
     private static boolean sumRange(float a, float b) {
-        boolean inRange = false;
-        if (a + b >= 10 & a + b <= 20) inRange = true;
-        return inRange;
+        return (a + b >= 10 & a + b <= 20);
     }
 
     private static void positiveness(int a) {
@@ -33,9 +31,7 @@ public class Main {
     }
 
     private static boolean negativeNumber(int a) {
-        boolean answer = false;
-        if (a < 0) answer = true;
-        return answer;
+        return (a < 0);
     }
 
     private static void printName(String name) {
